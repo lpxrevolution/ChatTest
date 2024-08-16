@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client\\Chat.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client.Library\\Chat.Client.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client.Library\\Chat.Client.Library.csproj",
+        "projectName": "Chat.Client.Library",
+        "projectPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client.Library\\Chat.Client.Library.csproj",
+        "packagesPath": "C:\\Users\\rlopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rlopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Desarrollo\\Sorli\\packages\\VIObjectLib": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jsvtfsserver.jsv.es/tfs/JSV/_packaging/JSV/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj": {
+                "projectPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client\\Chat.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client\\Chat.Client.csproj",
+        "projectName": "Chat.Client",
+        "projectPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client\\Chat.Client.csproj",
+        "packagesPath": "C:\\Users\\rlopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rlopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Desarrollo\\Sorli\\packages\\VIObjectLib": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jsvtfsserver.jsv.es/tfs/JSV/_packaging/JSV/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client.Library\\Chat.Client.Library.csproj": {
+                "projectPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client.Library\\Chat.Client.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj",
+        "projectName": "Chat.Common",
+        "projectPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj",
+        "packagesPath": "C:\\Users\\rlopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rlopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Desarrollo\\Sorli\\packages\\VIObjectLib": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jsvtfsserver.jsv.es/tfs/JSV/_packaging/JSV/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

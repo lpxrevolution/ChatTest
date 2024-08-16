@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rq3nutspYT4=",
+  "success": true,
+  "projectFilePath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Client.Library\\Chat.Client.Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rlopez\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\rlopez\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
