@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Chat.Client.Library
-build_property.ProjectDir = C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Client.Library\
+build_property.ProjectDir = C:\Desarrollo\CampusMVP\ChatCI\src\Chat.Client.Library\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

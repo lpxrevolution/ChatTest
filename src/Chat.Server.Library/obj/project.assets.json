@@ -1308,11 +1308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
+      "projectUniqueName": "C:\\Desarrollo\\CampusMVP\\ChatCI\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
       "projectName": "Chat.Server.Library",
-      "projectPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
+      "projectPath": "C:\\Desarrollo\\CampusMVP\\ChatCI\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
       "packagesPath": "C:\\Users\\rlopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Server.Library\\obj\\",
+      "outputPath": "C:\\Desarrollo\\CampusMVP\\ChatCI\\src\\Chat.Server.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1337,8 +1337,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj": {
-              "projectPath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Common\\Chat.Common.csproj"
+            "C:\\Desarrollo\\CampusMVP\\ChatCI\\src\\Chat.Common\\Chat.Common.csproj": {
+              "projectPath": "C:\\Desarrollo\\CampusMVP\\ChatCI\\src\\Chat.Common\\Chat.Common.csproj"
             }
           }
         }
@@ -1386,5 +1386,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://jsvtfsserver.jsv.es/tfs/JSV/_packaging/JSV/nuget/v3/index.json."
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+FrcqZ1++Io=",
+  "dgSpecHash": "sVuy7JFwQDU=",
   "success": true,
-  "projectFilePath": "C:\\Desarrollo\\CampusMVP\\Lab.180-Ejercicio de prácticas\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
+  "projectFilePath": "C:\\Desarrollo\\CampusMVP\\ChatCI\\src\\Chat.Server.Library\\Chat.Server.Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rlopez\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\rlopez\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
@@ -30,5 +30,12 @@
     "C:\\Users\\rlopez\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\rlopez\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://jsvtfsserver.jsv.es/tfs/JSV/_packaging/JSV/nuget/v3/index.json."
+    }
+  ]
 }
