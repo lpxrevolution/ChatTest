@@ -1,0 +1,11 @@
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\bin\Debug\net8.0\Chat.Common.deps.json
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\bin\Debug\net8.0\Chat.Common.dll
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\bin\Debug\net8.0\Chat.Common.pdb
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\Chat.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\Chat.Common.AssemblyInfoInputs.cache
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\Chat.Common.AssemblyInfo.cs
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\Chat.Common.csproj.CoreCompileInputs.cache
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\Chat.Common.dll
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\refint\Chat.Common.dll
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\Chat.Common.pdb
+C:\Desarrollo\CampusMVP\Lab.180-Ejercicio de prácticas\src\Chat.Common\obj\Debug\net8.0\ref\Chat.Common.dll

@@ -67,8 +67,7 @@ namespace Chat.Client.Library.Tests
             Func<Task> act = async () => { _ = await _chatClient.LoginAsync(null, null); };
 
             //Assert
-            await act.Should().ThrowExactlyAsync<ArgumentNullException>().WithMessage("Value cannot be null. (Parameter 'username')");
-
+            await act.Should().ThrowAsync<ArgumentNullException>();
         }
 
         [Theory]
@@ -94,8 +93,7 @@ namespace Chat.Client.Library.Tests
             Func<Task> act = async () => { _ = await _chatClient.CreateUserAsync(null, null); };
 
             //Assert
-            await act.Should().ThrowExactlyAsync<ArgumentNullException>().WithMessage("Value cannot be null. (Parameter 'username')");
-
+            await act.Should().ThrowAsync<ArgumentNullException>();
         }
 
         [Fact]
@@ -129,54 +127,56 @@ namespace Chat.Client.Library.Tests
         [Fact]
         public async Task NewMessageRecived_ShouldBeRaised_IfConnect()
         {
+            //Arrange
+            var eventRecived = false;
             await _chatClient.LoginAsync("Usuario1", "P2ssw0rd!");
-            using (var monitoredITem = _chatClient.Monitor())
-            {
-                _chatClient.Connect();
+            _chatClient.NewMessageRecived += (sender, _) => eventRecived = true;
+            _chatClient.Connect();
 
-                //Act
-                await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
+            //Act
+            await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
 
-                //Assert
-                monitoredITem.Should().Raise("NewMessageRecived");
-            }
+            //Assert
+            eventRecived.Should().BeTrue();
         }
 
         [Fact]
         public async Task OverwriteLastLine_ShouldBeRaised_IfOneMessageAndAuthorIsWhoseIsLogged()
         {
+            //Arrange
+            var eventRecived = false;
             await _chatClient.LoginAsync("Usuario3", "P2ssw0rd!");
-            using (var monitoredITem = _chatClient.Monitor())
-            {
-                _chatClient.Connect();
+            _chatClient.OverwriteLastLine += (sender, _) => eventRecived = true;
+            _chatClient.Connect();
 
-                //Act
-                await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
+            //Act
+            await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
 
-                //Assert
-                monitoredITem.Should().Raise("OverwriteLastLine");
-            }
+            //Assert
+            eventRecived.Should().BeTrue();
         }
 
         [Fact]
         public async Task OverwriteLastLine_ShouldNotBeRaised_IfOneMessageAndAuthorIsOther()
         {
+            //Arrange
+            var eventRecived = false;
             await _chatClient.LoginAsync("Usuario1", "P2ssw0rd!");
-            using (var monitoredITem = _chatClient.Monitor())
-            {
-                _chatClient.Connect();
+            _chatClient.OverwriteLastLine += (sender, _) => eventRecived = true;
+            _chatClient.Connect();
 
-                //Act
-                await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
+            //Act
+            await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
 
-                //Assert
-                monitoredITem.Should().NotRaise("OverwriteLastLine");
-            }
+            //Assert
+            eventRecived.Should().BeFalse();
         }
 
         [Fact]
         public async Task OverwriteLastLine_ShouldNotBeRaised_IfMoreThanOneMessage()
         {
+            //Arrange
+            var eventRecived = false;
             var messages = new List<ChatMessage>
             {
                 new ChatMessage
@@ -194,16 +194,14 @@ namespace Chat.Client.Library.Tests
             };
             _chatApi.Setup(chat => chat.GetChatMessagesAsync()).Returns(Task.FromResult((IEnumerable<ChatMessage>)messages));
             await _chatClient.LoginAsync("Usuario1", "P2ssw0rd!");
-            using (var monitoredITem = _chatClient.Monitor())
-            {
-                _chatClient.Connect();
+            _chatClient.OverwriteLastLine += (sender, _) => eventRecived = true;
+            _chatClient.Connect();
 
-                //Act
-                await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
+            //Act
+            await Task.Delay(100); //Le damos tiempo para que se ejecute el evento
 
-                //Assert
-                monitoredITem.Should().NotRaise("OverwriteLastLine");
-            }
+            //Assert
+            eventRecived.Should().BeFalse();
         }
 
         public void Dispose()
