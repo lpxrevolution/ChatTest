@@ -12,5 +12,5 @@ jobs:
       - uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '2.2.108'
-      - run: dotnet build "ejemplo CI chat"
-      - run: dotnet test "ejemplo CI chat"
+      - run: dotnet build "chat"
+      - run: dotnet test "chat"
